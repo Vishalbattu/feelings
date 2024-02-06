@@ -1,1 +1,16 @@
 
+{
+  "name": "feelings",
+  "version": "1.0.0",
+  "description": "Your feelings application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    // Add your dependencies here
+  },
+  "devDependencies": {
+    // Add your development dependencies here
+  }
+}
