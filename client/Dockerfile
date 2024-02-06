@@ -2,12 +2,12 @@
 FROM node:14
 
 # Create the working directory
-WORKDIR /usr/src/app/client
+WORKDIR /usr/src/app
 
 # Copy package.json and package-lock.json to the container
 COPY package*.json ./
 
-# Install dependencies, including react
+# Install dependencies
 RUN npm install
 
 # Copy the entire client directory to the container
