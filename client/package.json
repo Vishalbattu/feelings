@@ -1,9 +1,9 @@
 {
-  "type": "module",
   "name": "feelings",
   "version": "1.0.0",
   "description": "Your feelings application",
   "main": "index.js",
+  "type": "commonjs",  // Add this line
   "scripts": {
     "start": "node src/index.js"
   },
