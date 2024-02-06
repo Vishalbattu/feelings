@@ -2,9 +2,6 @@
 FROM node:14
 
 # Create the working directory
-RUN mkdir -p /usr/src/app/client
-
-# Set the working directory in the container
 WORKDIR /usr/src/app/client
 
 # Copy package.json and package-lock.json to the container
