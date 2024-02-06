@@ -6,10 +6,6 @@
   "scripts": {
     "start": "node index.js"
   },
-  "dependencies": {
-    // Add your dependencies here
-  },
-  "devDependencies": {
-    // Add your development dependencies here
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
