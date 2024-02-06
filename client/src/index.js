@@ -1,12 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+const React = require('react');
+const ReactDOM = require('react-dom');
 
 const App = () => {
-  return (
-    <div>
-      <h1>Hello, Feelings App!</h1>
-    </div>
-  );
+  return <div>Hello, feelings!</div>;
 };
 
 ReactDOM.render(<App />, document.getElementById('root'));
