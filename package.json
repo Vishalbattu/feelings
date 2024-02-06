@@ -1,15 +1,12 @@
 {
-  "name": "feelings",
+  "name": "server",
   "version": "1.0.0",
-  "description": "Your feelings application",
+  "description": "Your server application",
   "main": "index.js",
-  "type": "commonjs",  // Specify that your project is using CommonJS modules
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
     
   }
 }
