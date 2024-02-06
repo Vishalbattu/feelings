@@ -2,7 +2,7 @@ const React = require('react');
 const ReactDOM = require('react-dom');
 
 const App = () => {
-  return <div>Hello, feelings!</div>;
+  return React.createElement('div', null, 'Hello, feelings!');
 };
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(React.createElement(App), document.getElementById('root'));
