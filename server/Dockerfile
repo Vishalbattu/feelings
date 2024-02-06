@@ -5,7 +5,7 @@ WORKDIR /usr/src/app/server  # Change the working directory to 'server'
 
 COPY package*.json ./
 
-RUN ls -al  # Add this line to list the contents of the current directory
+RUN ls -al /usr/src/app/server  # List the contents of the 'server' directory
 
 RUN npm install
 
