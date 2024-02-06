@@ -1,6 +1,9 @@
 # Use the official Node.js image as the base image
 FROM node:14
 
+# Create the working directory
+RUN mkdir -p /usr/src/app/client
+
 # Set the working directory in the container
 WORKDIR /usr/src/app/client
 
