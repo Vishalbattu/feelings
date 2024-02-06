@@ -1,7 +1,7 @@
 # server/Dockerfile
 FROM node:14
 
-WORKDIR /usr/src/app/server
+WORKDIR /usr/src/app
 
 COPY package*.json ./
 
