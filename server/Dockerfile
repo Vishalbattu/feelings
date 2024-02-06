@@ -1,7 +1,7 @@
 # server/Dockerfile
 FROM node:14
 
-WORKDIR /usr/src/app/server  # Change the working directory to 'server'
+WORKDIR /usr/src/app/server
 
 COPY package*.json ./
 
