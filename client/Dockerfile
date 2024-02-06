@@ -7,7 +7,7 @@ WORKDIR /usr/src/app/client
 # Copy package.json and package-lock.json to the container
 COPY package*.json ./
 
-# Install dependencies
+# Install dependencies, including react
 RUN npm install
 
 # Copy the entire client directory to the container
