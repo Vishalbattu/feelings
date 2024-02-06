@@ -5,4 +5,7 @@ const App = () => {
   return React.createElement('div', null, 'Hello, feelings!');
 };
 
-ReactDOM.render(React.createElement(App), document.getElementById('root'));
+// Check if 'document' is defined before rendering
+if (typeof document !== 'undefined') {
+  ReactDOM.render(React.createElement(App), document.getElementById('root'));
+}
