@@ -9,6 +9,8 @@ services:
       - "3000:3000"
     depends_on:
       - server
+    volumes:
+      - ./client:/usr/src/app/client
 
   server:
     build:
