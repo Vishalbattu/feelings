@@ -5,13 +5,13 @@ FROM node:14
 WORKDIR /usr/src/app/client
 
 # Copy package.json and package-lock.json to the container
-COPY client/package*.json ./
+COPY package*.json ./
 
 # Install dependencies
 RUN npm install
 
 # Copy the entire client directory to the container
-COPY client/ .
+COPY . .
 
 # Expose port 3000
 EXPOSE 3000
