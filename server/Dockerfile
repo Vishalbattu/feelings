@@ -8,6 +8,9 @@ COPY package*.json ./
 # Print the current working directory and list its contents
 RUN pwd && ls -al
 
+# Explicitly create 'server' directory
+RUN mkdir server
+
 WORKDIR /usr/src/app/server  # Change the working directory to 'server'
 
 # Print the current working directory and list its contents
