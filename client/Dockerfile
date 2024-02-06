@@ -8,7 +8,7 @@ RUN mkdir -p /usr/src/app/client
 WORKDIR /usr/src/app/client
 
 # Copy package.json and package-lock.json to the container
-COPY ../package*.json ./
+COPY /package*.json ./
 
 # Install dependencies
 RUN npm install
