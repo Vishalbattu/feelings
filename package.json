@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Your feelings application",
   "main": "index.js",
-  "type": "commonjs",
+  "type": "commonjs",  // Specify that your project is using CommonJS modules
   "scripts": {
     "start": "node src/index.js"
   },
