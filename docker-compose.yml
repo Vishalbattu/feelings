@@ -3,8 +3,8 @@ version: '3'
 services:
   client:
     build:
-      context: ./client   # Specify the path to the Dockerfile
-      dockerfile: Dockerfile  # Dockerfile name
+      context: ./client
+      dockerfile: Dockerfile
     ports:
       - "3000:3000"
     depends_on:
