@@ -19,5 +19,4 @@ EXPOSE 3000
 # Command to run the application
 CMD ["npm", "start"]
 
-# Updated CMD line for debugging
-CMD ["bash", "-c", "while true; do sleep 10; done"]
+
